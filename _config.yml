@@ -1,11 +1,11 @@
-title: Your awesome title
-name: Your Name
-email: your-email@example.com
-description: Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+title: Adrian Samatan
+name: Adrian
+email: contact@adriansamatan.com
+description: Computer Science Engineering student
 
-remote_theme: jekyll-material-theme
+# remote_theme: jameshamann/jekyll-material-theme
 
-parallax_image_one: assets/images/startup3.jpg # These are the images used for the parallax background
+parallax_image_one: assets/images/classy_fabric.png # These are the images used for the parallax background
 parallax_image_two: assets/images/startup3.jpg
 
 # Settings for the porfolio section
@@ -13,10 +13,10 @@ parallax_image_two: assets/images/startup3.jpg
 portfolio_heading: Portfolio
 portfolio_type: cards #cards or carousel
 
-project_one: "First Project"
-project_one_description: Describe your project!
-project_one_url: https://github.com/jameshamann/jekyll-material-theme
-project_one_icon: location_on # these are from materiailize css, the full collection is here: http://materializecss.com/icons.html
+project_one: Meteor Discourse SSO
+project_one_description: A login service for Meteor using Discourse SSO as a provider.
+project_one_url: https://github.com/Sakerdot/accounts-discourse
+project_one_icon: account_box # these are from materiailize css, the full collection is here: http://materializecss.com/icons.html
 
 project_two: Second Project
 project_two_description: Describe your project!
@@ -38,114 +38,30 @@ project_four_icon: restaurant
 # Skill icons from https://konpa.github.io/devicon/
 
 skills:
-  - name: amazonwebservices
-  - name: android
-  - name: angularjs
-  - name: apache
-  - name: appcelerator
-  - name: apple
-  - name: atom
-  - name: babel
-  - name: backbonejs
-  - name: bitbucket
-  - name: bootstrap
-  - name: bower
-  - name: c
-  - name: chrome
-  - name: codeigniter
-  - name: coffescript
-  - name: confluence
   - name: cplusplus
-  - name: csharp
-  - name: css3
-  - name: cucumber
-  - name: d3js
-  - name: debian
-  - name: devicon
-  - name: django
-  - name: docker
-  - name: doctrine
-  - name: dot-net
-  - name: drupal
-  - name: erlang
-  - name: facebook
-  - name: firefox
-  - name: foundation
-  - name: gatling
-  - name: gimp
-  - name: git
-  - name: github
-  - name: gitlab
-  - name: go
-  - name: google
-  - name: gradle
-  - name: grunt
-  - name: gulp
-  - name: heroku
-  - name: html5
-  - name: ie10
-  - name: illustrator
-  - name: inkscape
-  - name: itellij
-  - name: java
-  - name: jasmine
-  - name: javascript
-  - name: laravel
-  - name: less
-  - name: linux
-  - name: meteor
-  - name: mocha
-  - name: mongodb
-  - name: moodle
-  - name: mysql
-  - name: nginx
-  - name: nodejs
-  - name: nodewebkit
-  - name: oracle
-  - name: photoshop
-  - name: php
-  - name: phpstorm
-  - name: protractor
-  - name: postgresql
   - name: python
-  - name: pycharm
-  - name: rails
-  - name: react
-  - name: redhat
-  - name: redis
-  - name: ruby
-  - name: rubymine
-  - name: safari
-  - name: sass
-  - name: sequelize
-  - name: slack
-  - name: sourcetree
-  - name: ssh
-  - name: swift
-  - name: symfony
-  - name: tomcat
-  - name: travis
-  - name: trello
-  - name: twitter
+  - name: java
+  - name: linux
+  - name: git
+  - name: javascript
+  - name: jquery
+  - name: django
+  - name: c
+  - name: bootstrap
+  - name: css3
+  - name: html5
+  - name: meteor
+  - name: mysql
+  - name: postgresql
   - name: typescript
-  - name: ubuntu
-  - name: vim
-  - name: visualstudio
-  - name: vuejs
-  - name: webpack
-  - name: webstorm
-  - name: windows8
-  - name: wordpress
-  - name: yii
-  - name: zend
 
 icon_size: 50 # font-size of icons in px
 colored: colored # Leave blank for black and white icons
 
 project_button: Github
 
-github: https://github.com/jameshamann/jekyll-material-theme
-medium: https://medium.com
+github: https://github.com/Sakerdot
+# medium: https://medium.com
 
 baseurl: # If your site is located at /blog or /home, change it here, otherwise leave it empty
 url: http://www.adriansamatan.com/ # The URL of your site
@@ -165,3 +81,4 @@ plugins:
   - jekyll-feed
   - jekyll-assets
   - jekyll-minifier
+  # - jekyll-remote-theme
