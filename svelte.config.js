@@ -4,9 +4,6 @@ import { mdsvex } from 'mdsvex';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-	// If a client side is needed remove this line
-	hydrate: false,
-
 	extensions: ['.svelte', '.md'],
 
 	// Consult https://github.com/sveltejs/svelte-preprocess
@@ -19,6 +16,15 @@ const config = {
 	],
 
 	kit: {
+		// See https://kit.svelte.dev/docs#configuration for configuration values.
+		// These 3 fields will remove all client side JavaScript from the generated
+		// static files. If some of this functionality is required, remove these lines.
+		hydrate: false,
+		router: false,
+		serviceWorker: {
+			register: false,
+		},
+
 		adapter: adapter(),
 
 		vite: {
