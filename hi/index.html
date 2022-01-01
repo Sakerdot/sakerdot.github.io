@@ -35,7 +35,7 @@
 		<link rel="modulepreload" href="/_app/start-b8426d50.js">
 		<link rel="modulepreload" href="/_app/chunks/vendor-a7db36b2.js">
 		<link rel="modulepreload" href="/_app/layout.svelte-8957ef27.js">
-		<link rel="modulepreload" href="/_app/pages/index.svelte-3df513c2.js">
+		<link rel="modulepreload" href="/_app/pages/hi.md-eee17606.js">
 
 		<script type="module">
 			import { start } from "/_app/start-b8426d50.js";
@@ -51,9 +51,9 @@
 					error: null,
 					nodes: [
 						import("/_app/layout.svelte-8957ef27.js"),
-						import("/_app/pages/index.svelte-3df513c2.js")
+						import("/_app/pages/hi.md-eee17606.js")
 					],
-					url: new URL("sveltekit://prerender/"),
+					url: new URL("sveltekit://prerender/hi"),
 					params: {}
 				}
 			});
@@ -67,9 +67,11 @@
 		<div id="svelte">
 
 
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<h2>From <a href="https://en.wikipedia.org/wiki/The_C_Programming_Language">The C Programming Language</a>:</h2>
+<pre class="language-c"><!-- HTML_TAG_START --><code class="language-c"><span class="token function">main</span><span class="token punctuation">(</span> <span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+        <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"hello, world&#92;n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">&#125;</span></code><!-- HTML_TAG_END --></pre>
 
-</div>
+<script type="application/json" data-type="svelte-data" data-url="/api/hi_url">{"status":200,"statusText":"","headers":{"content-type":"text/plain;charset=UTF-8"},"body":"\"https:\u002F\u002Fen.wikipedia.org\u002Fwiki\u002FThe_C_Programming_Language\""}</script></div>
 	</body>
 </html>
