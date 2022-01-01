@@ -10,6 +10,12 @@ const config = {
 	kit: {
 		adapter: adapter(),
 
+		vite: {
+			ssr: {
+			  noExternal: [/^@material\//, /^@smui(?:-extra)?\//],
+			},
+		},
+
 		// hydrate the <div id="svelte"> element in src/app.html
 		target: '#svelte'
 	}
