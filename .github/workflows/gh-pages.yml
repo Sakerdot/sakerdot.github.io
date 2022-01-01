@@ -23,6 +23,9 @@ jobs:
 
       - run: npm run build
 
+      - name: Remove statically generated api folder
+        run: rm -rf ./api
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.ref == 'refs/heads/master' }}
