@@ -4,6 +4,9 @@ import { mdsvex } from 'mdsvex';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
+	// If a client side is needed remove this line
+	hydrate: false,
+
 	extensions: ['.svelte', '.md'],
 
 	// Consult https://github.com/sveltejs/svelte-preprocess
